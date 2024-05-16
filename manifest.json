@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Unofficial Grade Entry Helper for U of I faculty",
+  "description": "Unofficial Grade Entry Helper for U of I faculty",
+  "version": "0.0.0.1",
+  "permissions" : ["scripting" , "activeTab" ,"tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html#/popup",
+    "default_title": "Grade Entry Helper"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
+
