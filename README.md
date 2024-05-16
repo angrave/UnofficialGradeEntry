@@ -2,6 +2,8 @@ An unofficial Chrome Extension by Angrave to make it easier to paste grades into
 
 If you use this extension be sure to verify grades are saved.
 
+Think twice before you use this - there are probably better ways to do what you need to do (see Official Alternatives below).
+
 # Install
 
 1. Clone this repo (and inspect the code)
@@ -20,7 +22,7 @@ Note this extension only works on the Banner Grade Entry page.
 1. If there are no errors then the visible Grade dropdowns for matching UINs will be set on the web page.
 1. It is still your responsibility to verify and save the grades, including setting last attend date for F grades. You wil have to use it multiple times if you have more than one page of grades.
 
-# Official Alternatives.
+# Official Alternatives
 
 1. You can export grades directly from Canvas and maybe Moodle, then upload them into Banner.
 1. Create a XLSX (Excel) document using your favorite tool
