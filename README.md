@@ -4,10 +4,11 @@ If you use this extension be sure to verify grades are saved.
 
 # Install
 
-1. Open chrome://extensions/
+1. Clone this repo (and inspect the code)
+2. Open chrome://extensions/
 1. Enable Developer Mode (top right)
-1. Select "Load unpacked" and select this directory.
-1. Pin the extension, so it is easy to open
+1. Select "Load unpacked" and select the repo directory.
+1. Pin the extension, so it is easy to open; it will appear as an "A+" icon in Chrome.
 
 Note this extension only works on the Banner Grade Entry page.
 
