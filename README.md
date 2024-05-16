@@ -25,7 +25,7 @@ Note this extension only works on the Banner Grade Entry page.
 1. You can export grades directly from Canvas and maybe Moodle, then upload them into Banner.
 1. Create a XLSX (Excel) document using your favorite tool
 Excel|Pandas|Google Sheet|... It needs 4 columns headings that you can cut and paste from here:
-`Term Code    CRN    Student ID    Final Grade`
+  `Term Code,CRN,Student ID,Final Grade`
 where Term Code is 120241 (1+ yyyy + m), CRN is your course CRN (which likely flipflops per semester update: but may also depend on the student's section),  and Student ID ...  the student's UIN 6xxxxxxxxx. Add UIN and grade rows. And fill in term and CRN data.
 Then under the top-right gear icon use  "Upload" option in Banner self service after selecting your course. For "F" grades you can fix up the Last attend date later.
 https://banner.apps.uillinois.edu/FacultySelfService/ssb/GradeEntry?mepCode=1UIUC#/final
