@@ -14,10 +14,9 @@ Note this extension only works on the Banner Grade Entry page.
 
 # Use
 
-1. Login to Banner and navigate to GradeEntry
-1. In Banner Select section that needs grade enter
-1. Open the extension (click on the A+ extension icon) so you can paste grade info in.
-1. Copy and Paste your 2 columns UIN,Grade  (comma or tab separated) and click the button
+1. Login to Banner, navigate to GradeEntry and select the section that needs grades entered.
+1. Open the extension (click on the A+ extension icon) so you can paste UIN and grades.
+1. Copy and Paste your 2 columns UIN,Grade  (comma or tab separated) and click the "Copy Grades" button!
 1. If there are no errors then the visible Grade dropdowns for matching UINs will be set on the web page.
 1. It is still your responsibility to verify and save the grades, including setting last attend date for F grades. You wil have to use it multiple times if you have more than one page of grades.
 
