@@ -1,4 +1,4 @@
-# Unofficial Grade Entry
+# Unofficial Grade Entry ![GradeEntry icon](https://github.com/angrave/UnofficialGradeEntry/blob/main/images/icon-48.png?raw=true)
 
 An unofficial Chrome Extension by Angrave to paste grades into the U of I Banner Grade Entry system.
 
