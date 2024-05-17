@@ -1,4 +1,7 @@
+# Unofficial Grade Entry
+
 An unofficial Chrome Extension by Angrave to paste grades into the U of I Banner Grade Entry system.
+
 This extension attempts to set the grade entry drop-downs (think of it as fast copy-paste from a textarea to visible list of dropdowns); it does not save or upload grades to the server. It is still your responsibility to save and verify all grades.
 
 ![Screenshot of grade text area with UINs and grade letters](https://github.com/angrave/UnofficialGradeEntry/blob/main/doc/popup-demo.png?raw=true)
@@ -44,7 +47,7 @@ Then under the top-right gear icon use  "Upload" option in Banner self service a
 
 # Security comments
 
-This extension has not published on the Chrome Extension store; it is only available as this repo (https://github.com/angrave/UnofficialGradeEntry/).
+This extension has not published on the Chrome Extension store; it is only available as a github repository (https://github.com/angrave/UnofficialGradeEntry/).
 
 This repo does not rely on any external or third-party libraries - so you are at least trusting that Angrave (CS faculty at UIUC) is not attempting to be malicious and that my github has not been hacked. I personally would review the source code of any extension before running it.
 
