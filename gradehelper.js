@@ -1,6 +1,3 @@
-/* Updated 2024 for new Grade Entry. Paste into Dev Console and run after a course has been selected. Why would you need this when you can use the official method? Please don't use this awful hack.  No warranty or claims of correctness. Barely tested and unmaintable. Probably broken.
-Be sure to verify grades afterwards.
-*/
 (function () {
 
     const verbose = false;
@@ -9,8 +6,8 @@ Be sure to verify grades afterwards.
         if (expect == actual)
             return;
 
-        if (verbose && expect !== true) mesg += `. Expected "${expect}" but got "${actual}"`
-        alert(mesg)
+        if (verbose && expect !== true) mesg += `. Expected "${expect}" but got "${actual}"`;
+        alert(mesg);
         throw mesg;
     };
 
