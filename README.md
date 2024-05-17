@@ -8,12 +8,12 @@ Think twice before you use this - there are probably better ways to do what you 
 
 # Install / Uninstall
 
-1. Clone this repo (and inspect the code)
-2. Open chrome://extensions/
+1. Create a local copy of this repo (and inspect the code)
+2. Open [chrome://extensions/](chrome://extensions/)
 1. Enable Developer Mode (top right)
 1. Select "Load unpacked" and select the repo directory.
 1. Pin the extension, so it is easy to open; it will appear as an "A+" icon in Chrome.
-1. Use Chrome://extensions/ to update or uninstall the extension.
+1. Use chrome://extensions/ to update or uninstall the extension.
 
 This extension only works on the specific URL of Banner's Final Grade Entry page for UIUC. Midterm grades could be supported upon request.
 
@@ -28,7 +28,7 @@ This extension only works on the specific URL of Banner's Final Grade Entry page
 
 # Official and supported methods to import grades
 
-Here's the official documentation by the registrar - 
+Here's the excellent and detail official documentation by the registrar - 
 https://registrar.illinois.edu/faculty-staff/staff-grades/faculty-grade-entry/#mass-grade-entry
 
 So please let me know why you even need this tool when there are multiple official methods to upload grades -
@@ -42,10 +42,13 @@ Then under the top-right gear icon use  "Upload" option in Banner self service a
 1. Use the Banner WebUI grade dropdown entry.
 1. Select the course then select "Export Template" (again, topright gear icon) to get a starting Excel document and paste into that.
 
-# Security Profile
+# Security comments
 
-This repo does not rely on any external or third-party libraries - so you are trusting that Angrave (faculty at UIUC) is not attempting to be malicious and that their github has not been hacked. I personally would review the source code of any extension before running it.
-The validation checks built into the project, will likely discover if the Banner page entry structure changes and refuse to set grades. However no warranty is provided and you are responsible for verifying that the grades sent to the server are correct. One way to do this is to relead the page and export the grades 
+This extension has not published on the Chrome Extension store; it is only available as this repo (https://github.com/angrave/UnofficialGradeEntry/).
+
+This repo does not rely on any external or third-party libraries - so you are at least trusting that Angrave (CS faculty at UIUC) is not attempting to be malicious and that my github has not been hacked. I personally would review the source code of any extension before running it.
+
+The validation checks built into the project, will likely discover if the Banner page entry structure changes and refuse to set grades. You are also trusting that the tool works as intended however no warranty is provided and you are responsible for verifying that the grades sent to the server are correct. One way to do this is to relead the page and export the grades 
 
 # License
 
