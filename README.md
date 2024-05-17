@@ -31,7 +31,7 @@ This extension only works on the specific URL of Banner's Final Grade Entry page
 Here's the official documentation by the registrar - 
 https://registrar.illinois.edu/faculty-staff/staff-grades/faculty-grade-entry/#mass-grade-entry
 
-So please let me know why do you even need this tool when there are multiple official methods to upload grades -
+So please let me know why you even need this tool when there are multiple official methods to upload grades -
 
 1. Export grades from Canvas LMS and maybe Moodle LMS, then upload them into Banner.
 1. Upload a spreadsheet: Create a XLSX (Excel) document using your favorite tool e.g.
@@ -42,10 +42,10 @@ Then under the top-right gear icon use  "Upload" option in Banner self service a
 1. Use the Banner WebUI grade dropdown entry.
 1. Select the course then select "Export Template" (again, topright gear icon) to get a starting Excel document and paste into that.
 
-# Security
+# Security Profile
 
-This repo does not rely on any external or third-party libraries. I personally would review the code of any extension before running it.
-The validation checks built into the project, will likely discover if the Banner page entry structure changes and refuse to set grades.
+This repo does not rely on any external or third-party libraries - so you are trusting that Angrave (faculty at UIUC) is not attempting to be malicious and that their github has not been hacked. I personally would review the source code of any extension before running it.
+The validation checks built into the project, will likely discover if the Banner page entry structure changes and refuse to set grades. However no warranty is provided and you are responsible for verifying that the grades sent to the server are correct. One way to do this is to relead the page and export the grades 
 
 # License
 
