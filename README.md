@@ -51,7 +51,7 @@ This extension has not been published as a downloadable Chrome Extension store; 
 
 This repo does not rely on any external or third-party libraries - so you are at least trusting that I, Lawrence Angrave (CS faculty at U of I), is not  malicious and that my github has not been hacked. I personally would review the source code of any extension before running it.
 
-The validation checks built into the project, will likely discover if the Banner page entry structure changes and refuse to set grades. You are also trusting that the tool works as intended however no warranty is provided and you are responsible for verifying that the grades sent to the server are correct. One way to do this is to relead the page and export the grades 
+The validation checks built into the project, will likely discover if the Banner page entry structure changes and refuse to set grades. You are also trusting that the tool works as intended however no warranty is provided and you are responsible for verifying that the grades sent to the server are correct. One way to verified grades were added to Banner is to reloadd the page and export them.
 
 # License
 
